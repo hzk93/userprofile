@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { AiFillEye, AiFillGithub} from 'react-icons/ai';
+import { AiFillEye} from 'react-icons/ai';
 import { motion } from 'framer-motion';
 
 import { AppWrap, MotionWrap } from '../../wrapper';
@@ -73,7 +73,7 @@ const Work = () => {
             className='app__work-hover app__flex'
                   
           >
-            <a href={work.projectLink} target='_blank' rel='noreferr'>
+            <a href={work.projectLink} target='_blank' rel='noreferrer'>
               <motion.div
                 whileInView={{scale:[0,1]}}
                 whileHover={{scale: [1,0.9]}}
