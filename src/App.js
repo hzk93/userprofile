@@ -6,6 +6,7 @@
  const App = () => {
      return(
         <div className='app'>
+            <h1>Hello Testing</h1>
             <Navbar />
             <Header /> 
             <About />
